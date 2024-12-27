@@ -1,6 +1,5 @@
-import logoDark from "./logo-dark.svg";
-import logoLight from "./logo-light.svg";
 import {Footer, Header} from "~/componets";
+import {useNavigate} from "react-router";
 
 export function Landing() {
   return (
@@ -12,11 +11,29 @@ export function Landing() {
               <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
                 Welcome to Coded Alchemy! This portfolio site is an experience in itself...
               </p>
-              <button class="bg-sky-500 hover:bg-sky-700">Enter</button>
+                <EnterButton />
             </div>
           </div>
           <Footer />
         </div>
       </main>
   );
+}
+
+function EnterButton() {
+    const navigate = useNavigate();
+
+    function handleClick() {
+        navigate("/about");
+    }
+
+    return (
+        <button
+            type="button"
+            onClick={handleClick}
+            class="bg-sky-500 hover:bg-sky-700"
+        >
+            Enter
+        </button>
+    );
 }

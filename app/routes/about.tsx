@@ -8,6 +8,6 @@ export function meta({}: Route.MetaArgs) {
     ];
 }
 
-export function About() {
+export default function About() {
     return <AboutPage />
 }
