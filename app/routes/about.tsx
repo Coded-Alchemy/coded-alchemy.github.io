@@ -4,7 +4,7 @@ import {AboutPage} from "~/about/about";
 export function meta({}: Route.MetaArgs) {
     return [
         { title: "Coded Alchemy" },
-        { name: "description", content: "Coded Alchemy about page." },
+        { name: "The portfolio of Taji Abdullah", content: "About Taji Abdullah" },
     ];
 }
 

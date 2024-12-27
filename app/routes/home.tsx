@@ -4,7 +4,7 @@ import { Landing } from "~/landing/landing";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Coded Alchemy" },
-    { name: "description", content: "Welcome to Coded Alchemy!" },
+    { name: "The portfolio of Taji Abdullah", content: "Welcome to Coded Alchemy!" },
   ];
 }
 
