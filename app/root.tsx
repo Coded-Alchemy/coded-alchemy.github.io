@@ -24,6 +24,9 @@ export const links: Route.LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
 ];
 
+// The Layout component is a special export for the root route.
+// It acts as your document's "app shell" for all route components, HydrateFallback, and ErrorBoundary
+// For more information, see https://reactrouter.com/explanation/special-files#layout-export
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -38,6 +41,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <ScrollRestoration />
         <Scripts />
       </body>
+      <footer>
+        Yo
+      </footer>
     </html>
   );
 }
@@ -46,6 +52,8 @@ export default function App() {
   return <Outlet />;
 }
 
+// The top most error boundary for the app, rendered when your app throws an error
+// For more information, see https://reactrouter.com/start/framework/route-module#errorboundary
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   let message = "Oops!";
   let details = "An unexpected error occurred.";
