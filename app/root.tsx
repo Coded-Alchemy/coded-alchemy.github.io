@@ -37,23 +37,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
-        <ScrollRestoration />
-        <Scripts />
+      {children}
+      <ScrollRestoration/>
+      <Scripts/>
       </body>
-      <footer>
-          <main className="flex items-center justify-center pt-16 pb-4">
-            <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
-              <p>&copy; Taji Abdullah</p>
-            </div>
-          </main>
-      </footer>
     </html>
   );
 }
 
 export default function App() {
-  return <Outlet />;
+  return <Outlet/>;
 }
 
 // The top most error boundary for the app, rendered when your app throws an error
