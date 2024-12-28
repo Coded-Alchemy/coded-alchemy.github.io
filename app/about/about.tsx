@@ -17,7 +17,7 @@ export function AboutPage() {
                                          alt="Taji Abdullah"/>
                                 </div>
                                 <div className="p-8">
-                                    <h1 className="text-3xl">Im Taji Abdullah, I do software, and build things!</h1>
+                                    <h1 className="text-3xl">Im Taji Abdullah, software engineer, and builder of things!</h1>
 
                                     <p className="mt-2 text-white-500">Since 2011 I have worked as a software engineer.
                                         I have worked on web applications, but mostly my focus has been on Android apps.
