@@ -12,9 +12,7 @@ export function AboutPage() {
                         <div className="max-w-md mx-auto overflow-hidden md:max-w-2xl">
                             <div className="md:flex">
                                 <div className="md:shrink-0">
-                                    <img className="h-48 w-full object-cover md:h-full md:w-48"
-                                         src="/public/IMG_20140821_200627.jpg"
-                                         alt="Taji Abdullah"/>
+
                                 </div>
                                 <div className="p-8">
                                     <h1 className="text-3xl">Im Taji Abdullah, software engineer, and builder of things!</h1>
