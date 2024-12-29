@@ -49,13 +49,13 @@ export function Navigation() {
                    className="text-xl font-bold transition-transform duration-300 hover:scale-110">About</a>
 
                 {/* Projects Dropdown with Accordion Animation */}
-                <div className="group relative">
-                    <h2 className="text-xl font-bold transition-transform duration-300 hover:scale-110 cursor-pointer">
-                        Projects
-                    </h2>
-                    {/* Dropdown Menu */}
-                    <ProjectDropDownMenu/>
-                </div>
+                {/*<div className="group relative">*/}
+                {/*    <h2 className="text-xl font-bold transition-transform duration-300 hover:scale-110 cursor-pointer">*/}
+                {/*        Projects*/}
+                {/*    </h2>*/}
+                {/*    /!* Dropdown Menu *!/*/}
+                {/*    <ProjectDropDownMenu/>*/}
+                {/*</div>*/}
 
                 {/* Certification Link */}
                 <a href="/certification"

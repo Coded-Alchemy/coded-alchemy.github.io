@@ -24,7 +24,7 @@ function Content() {
                         <div className="md:shrink-0">
                             <img
                                 className="h-64 w-full object-cover md:h-full md:w-64"
-                                src="/public/Designer.jpeg"
+                                src="/app/home/Designer.jpeg"
                                 alt="Taji Abdullah"
                             />
                         </div>
