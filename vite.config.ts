@@ -12,7 +12,7 @@ export default defineConfig({
   },
   plugins: [reactRouter(), tsconfigPaths()],
   build: {
-    outDir: "build/client", // Make sure this is the folder you want your build to go to
+    outDir: "build/server", // Make sure this is the folder you want your build to go to
   },
   base: "/coded-alchemy.github.io/", // Set the base URL for GitHub Pages
 });
