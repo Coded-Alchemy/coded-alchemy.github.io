@@ -4,7 +4,7 @@
   "type": "module",
   "homepage": "https://coded-alchemy.github.io",
   "scripts": {
-    "build": "cross-env NODE_ENV=production react-router build",
+    "build": "cross-env NODE_ENV=production react-router build --output ./build",
     "dev": "react-router dev",
     "start": "cross-env NODE_ENV=production react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
