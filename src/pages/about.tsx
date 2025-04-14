@@ -7,7 +7,7 @@ export function AboutPage() {
                 <div className="max-w-md mx-auto overflow-hidden md:max-w-2xl">
                     <div className="md:flex">
                         <div className="p-8">
-                            <h1 className="text-3xl">About</h1>
+                            <h1 className="text-3xl">About Taji Abdullah</h1>
                             <p className="mt-2 text-white-500 mt-8">
                                 After 10 years of building cutting-edge Android applications and delivering exceptional
                                 mobile experiences, I am charting a bold new course into the field of cybersecurity.
