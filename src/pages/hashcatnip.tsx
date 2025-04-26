@@ -16,7 +16,7 @@ export function HashCatnipPage() {
 
                              <p className="p-8">
                                  Hash Catnip is a python utility I created that automates Hashcat usage.
-                                 A detailed walkthrough amd usage explanation can be found on here: <a
+                                 A detailed walkthrough and usage explanation can be found on here: <a
                                  href="https://technofiles.hashnode.dev/hash-catnip">Hash Catnip</a>. And the source code can
                                  be found on my Github: <a href="https://github.com/Coded-Alchemy/HashCatnip">hashcatnip</a>.
                              </p>
