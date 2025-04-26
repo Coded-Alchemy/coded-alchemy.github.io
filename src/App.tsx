@@ -6,6 +6,7 @@ import {Navigation} from "./components/navigation.tsx";
 import {HomePage} from "./pages/home.tsx";
 import {AboutPage} from "./pages/about.tsx";
 import {CertificationPage} from "./pages/certification.tsx";
+import {HashCatnipPage} from "./pages/hashcatnip.tsx";
 
 // This is the application entry point.
 
@@ -20,6 +21,7 @@ export default function App() {
                         <Route path="/" element={<HomePage/>}/>
                         <Route path="about" element={<AboutPage/>}/>
                         <Route path="certification" element={<CertificationPage/>}/>
+                        <Route path="hashcatnip" element={<HashCatnipPage/>}/>
                     </Routes>
                 </main>
                 <Footer/>
