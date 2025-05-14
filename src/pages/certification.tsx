@@ -3,6 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export function CertificationPage() {
     const images = [
+        "/img/cc.png",
         "/img/soc.png",
         "/img/google_cs.png",
         "/img/thm_pre_sec.png",
